@@ -200,12 +200,12 @@ class MediaAdmin extends Admin
 
         $menu->addChild(
             $this->trans('sidemenu.link_edit_media'),
-            array( 'uri' => $admin->generateUrl('edit', array('id' => $id)) )
+            array('uri' => $admin->generateUrl('edit', array('id' => $id)))
         );
 
         $menu->addChild(
             $this->trans('sidemenu.link_media_view'),
-            array( 'uri' => $admin->generateUrl('view', array('id' => $id)) )
+            array('uri' => $admin->generateUrl('view', array('id' => $id)))
         );
     }
 
